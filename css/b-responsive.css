@@ -1,0 +1,204 @@
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: 700;
+    font-size: 26px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .navbar{
+    height: 64px;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .main-menu-imgs{
+    width: 40%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  .sec-text{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .sec-text-dark{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 60%;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #sec-1{
+    height: 1120px;
+    padding: 80px 0 0 0;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 1 */
+
+
+  /* Section 2 */
+  #sec-2{
+    height: 1620px;
+  }
+
+  /* Section 3 */
+  #sec-3{
+    height: 2000px;
+  }
+
+  /* Section 4 */
+  #sec-4{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-5{
+    height: 3200px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-6{
+    height: 2600px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+/* Mobile LD */
+@media screen and (max-width: 350px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: 700;
+    font-size: 22px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .navbar{
+    height: 66px;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 16px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 250px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .main-menu-imgs{
+    width: 30%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  .sec-text{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .sec-text-dark{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  #logo{
+    padding-left: 24px;
+    padding-top: 20px;
+    width: 60%;
+  }
+  #main-sec{
+    padding: 20px 0 0 0px;
+  }
+  #main-heading{
+    padding: 20px 0 0 0;
+  }
+
+  /* Section 1 */
+  #sec-1{
+    height: 880px;
+    padding: 70px 0 0 0;
+  }
+
+  /* Section 2 */
+  #sec-2{
+    height: 1680px;
+  }
+
+  /* Section 3 */
+  #sec-3{
+    height: 2280px;
+  }
+
+  /* Section 4 */
+  #sec-4{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-5{
+    height: 3000px;
+  }
+
+  /* Section 6 */
+  #sec-6{
+    height: 2700px;
+  }
+
+  /* Section 7 */
+  #sec-7{
+    height: 1400px;
+  }
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 100px;
+  }
+}
