@@ -147,9 +147,11 @@ footer{
 .img-light{
   color: white;
   opacity: .85;
+  padding-bottom: 6px;
 }
 .img-dark{
   color: #3d3d3d;
+  padding-bottom: 6px;
 }
 #logo{
   padding-left: 40px;
@@ -214,7 +216,7 @@ footer{
 /* Section 3 */
 #sec-3{
   background-color: #3F6682;
-  height: 1400px;
+  height: 1520px;
 }
 #partner{
   background-image: url(../img/top-image-2.png);
@@ -259,7 +261,7 @@ footer{
 /* Section 6 */
 #sec-6{
     background-color: #ECF0F1;
-    height: 1780px;
+    height: 2020px;
 }
 #volunteers{
   background-image: url(../img/top-image-5.png);
@@ -287,4 +289,17 @@ footer{
   background-image: url(../img/top-image-7.png);
   background-position: center;
   height: 200px;
+}
+
+/* Footer */
+#social{
+  text-align: center;
+  color: white;
+  padding: 10px 0 0 0;
+}
+.footer-text{
+  color: white;
+}
+.social-icons{
+  padding: 0 10px 0 0;
 }
