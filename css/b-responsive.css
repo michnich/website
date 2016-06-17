@@ -563,6 +563,12 @@
     float: left;
     margin: 0px 0px 110px 10px;
   }
+  .img-small{
+    color: white;
+    padding: 6px 20px 6px 0;
+    margin: 0px 0px 40px 0px;
+    float: left;
+  }
   .img-xsmall{
     color: white;
     padding: 2px 20px 6px 0;
@@ -689,6 +695,12 @@
     float: left;
     margin: 0px 0px 80px 10px;
   }
+  .img-small{
+    color: white;
+    padding: 6px 20px 6px 0;
+    margin: 0px 0px 60px 0px;
+    float: left;
+  }
   .img-xsmall{
     color: white;
     padding: 2px 20px 6px 0;
@@ -698,7 +710,7 @@
   #logo{
     padding-left: 28px;
     padding-top: 16px;
-    width: 40%;
+    width: 70%;
   }
   /* Section 1 */
   .main-menu-imgs{
@@ -821,6 +833,12 @@
     padding: 0 20px 0 0;
     float: left;
     margin: 0px 0px 120px 0px;
+  }
+  .img-small{
+    color: white;
+    padding: 6px 20px 6px 0;
+    margin: 0px 0px 85px 0px;
+    float: left;
   }
   .img-xsmall{
     color: white;
@@ -950,6 +968,12 @@
     padding: 0 20px 0 0;
     float: left;
     margin: 0px 0px 150px 0px;
+  }
+  .img-small{
+    color: white;
+    padding: 6px 20px 6px 0;
+    margin: 0px 0px 105px 0px;
+    float: left;
   }
   .img-xsmall{
     color: white;
