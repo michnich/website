@@ -1,3 +1,759 @@
+@media screen and (min-width: 1601px) and (max-width: 1920px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: normal;
+    font-size: 42px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .navbar{
+    height: 90px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .sec-text{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 22px 20px 22px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .par-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 100px 10px;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 100%;
+  }
+  /* Section 1 */
+  .main-menu-imgs{
+    width: 60%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  #sec-1{
+    height: 1080px;
+    padding: 180px 0 0 0;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 2 */
+  #sec-2{
+    height: 1620px;
+  }
+
+  /* Section 3 */
+  #sec-3{
+    height: 2000px;
+  }
+
+  /* Section 4 */
+  #sec-4{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-5{
+    height: 2500px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-6{
+    height: 1850px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1600px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: normal;
+    font-size: 42px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .navbar{
+    height: 90px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .sec-text{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 22px 20px 22px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .par-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 100px 10px;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 100%;
+  }
+  /* Section 1 */
+  .main-menu-imgs{
+    width: 60%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  #sec-1{
+    height: 900px;
+    padding: 180px 0 0 0;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 2 */
+  #sec-2{
+    height: 1620px;
+  }
+
+  /* Section 3 */
+  #sec-3{
+    height: 2000px;
+  }
+
+  /* Section 4 */
+  #sec-4{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-5{
+    height: 2500px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-6{
+    height: 1850px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: normal;
+    font-size: 42px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .navbar{
+    height: 90px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .sec-text{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 22px 20px 22px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .par-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 110px 10px;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 100%;
+  }
+  /* Section 1 */
+  .main-menu-imgs{
+    width: 60%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  #sec-1{
+    height: 900px;
+    padding: 180px 0 0 0;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 2 */
+  #sec-2{
+    height: 1620px;
+  }
+
+  /* Section 3 */
+  #sec-3{
+    height: 2000px;
+  }
+
+  /* Section 4 */
+  #sec-4{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-5{
+    height: 2500px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-6{
+    height: 1850px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: normal;
+    font-size: 42px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .navbar{
+    height: 90px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .sec-text{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 14px 20px 10px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .par-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 110px 10px;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 100%;
+  }
+  /* Section 1 */
+  .main-menu-imgs{
+    width: 60%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  #sec-1{
+    height: 900px;
+    padding: 180px 0 0 0;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 2 */
+  #sec-2{
+    height: 1620px;
+  }
+
+  /* Section 3 */
+  #sec-3{
+    height: 2000px;
+  }
+
+  /* Section 4 */
+  #sec-4{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-5{
+    height: 2500px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-6{
+    height: 1850px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: normal;
+    font-size: 42px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .navbar{
+    height: 80px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .sec-text{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 14px 20px 10px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .par-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 110px 10px;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 80%;
+  }
+  /* Section 1 */
+  .main-menu-imgs{
+    width: 60%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  #sec-1{
+    height: 900px;
+    padding: 180px 0 0 0;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 2 */
+  #sec-2{
+    height: 1620px;
+  }
+
+  /* Section 3 */
+  #sec-3{
+    height: 2000px;
+  }
+
+  /* Section 4 */
+  #sec-4{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-5{
+    height: 2500px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-6{
+    height: 1850px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1024px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: 700;
+    font-size: 26px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .navbar{
+    height: 80px;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .sec-text{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 14px 20px 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .par-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 80px 10px;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 40%;
+  }
+  /* Section 1 */
+  .main-menu-imgs{
+    width: 30%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  #sec-1{
+    height: 1380px;
+    padding: 120px 0 0 0;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 2 */
+  #sec-2{
+    height: 1620px;
+  }
+
+  /* Section 3 */
+  #sec-3{
+    height: 2000px;
+  }
+
+  /* Section 4 */
+  #sec-4{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-5{
+    height: 2500px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-6{
+    height: 1850px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
 /* Mobile HD */
 @media screen and (min-width: 350px) and (max-width: 760px){
   /**Global**/
@@ -40,10 +796,37 @@
     text-align: center;
     font-size: 16px;
   }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 14px 20px 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
   .sec-text-dark{
     padding: 20px 20px 20px 20px;
     text-align: center;
     font-size: 16px;
+  }
+  .par-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 120px 0px;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
   }
   #logo{
     padding-left: 28px;
@@ -80,7 +863,7 @@
 
   /* Section 5 */
   #sec-5{
-    height: 3200px;
+    height: 3300px;
   }
   .reg-img{
     width: 100%;
@@ -88,7 +871,7 @@
 
   /* Section 6 */
   #sec-6{
-    height: 2650px;
+    height: 2850px;
   }
 
   /* Section 8 */
@@ -142,10 +925,37 @@
     text-align: center;
     font-size: 16px;
   }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 14px 20px 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
   .sec-text-dark{
     padding: 20px 20px 20px 20px;
     text-align: center;
     font-size: 16px;
+  }
+  .par-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 150px 0px;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
   }
   #logo{
     padding-left: 24px;
@@ -182,7 +992,7 @@
 
   /* Section 5 */
   #sec-5{
-    height: 3000px;
+    height: 3500px;
   }
 
   /* Section 6 */
