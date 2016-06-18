@@ -89,12 +89,12 @@
   }
   /* Section 2 */
   #sec-2{
-    height: 1620px;
+    height: 1320px;
   }
 
   /* Section 3 */
   #sec-3{
-    height: 2000px;
+    height: 1500px;
   }
 
   /* Section 4 */
@@ -104,7 +104,7 @@
 
   /* Section 5 */
   #sec-5{
-    height: 2500px;
+    height: 2300px;
   }
   .reg-img{
     width: 100%;
@@ -112,7 +112,12 @@
 
   /* Section 6 */
   #sec-6{
-    height: 1850px;
+    height: 1750px;
+  }
+
+  /* Section 7 */
+  #sec-7{
+      height: 820px;
   }
 
   /* Section 8 */
@@ -124,7 +129,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) and (max-width: 1600px){
+@media screen and (min-width: 1441px) and (max-width: 1600px){
   /**Global**/
   img{
     max-width:100%;
@@ -215,12 +220,12 @@
   }
   /* Section 2 */
   #sec-2{
-    height: 1620px;
+    height: 1220px;
   }
 
   /* Section 3 */
   #sec-3{
-    height: 2000px;
+    height: 1400px;
   }
 
   /* Section 4 */
@@ -341,12 +346,12 @@
   }
   /* Section 2 */
   #sec-2{
-    height: 1620px;
+    height: 1220px;
   }
 
   /* Section 3 */
   #sec-3{
-    height: 2000px;
+    height: 1400px;
   }
 
   /* Section 4 */
@@ -467,12 +472,12 @@
   }
   /* Section 2 */
   #sec-2{
-    height: 1620px;
+    height: 1220px;
   }
 
   /* Section 3 */
   #sec-3{
-    height: 2000px;
+    height: 1400px;
   }
 
   /* Section 4 */
@@ -599,12 +604,12 @@
   }
   /* Section 2 */
   #sec-2{
-    height: 1620px;
+    height: 1220px;
   }
 
   /* Section 3 */
   #sec-3{
-    height: 2000px;
+    height: 1500px;
   }
 
   /* Section 4 */
@@ -731,12 +736,12 @@
   }
   /* Section 2 */
   #sec-2{
-    height: 1620px;
+    height: 1220px;
   }
 
   /* Section 3 */
   #sec-3{
-    height: 2000px;
+    height: 1500px;
   }
 
   /* Section 4 */
@@ -1006,7 +1011,7 @@
 
   /* Section 3 */
   #sec-3{
-    height: 2280px;
+    height: 2100px;
   }
 
   /* Section 4 */
