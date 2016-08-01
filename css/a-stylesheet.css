@@ -317,6 +317,13 @@ footer{
   height: 200px;
 }
 
+#reg-btn-dark{
+  background-color: transparent;
+  border-color: #3d3d3d;
+  color: #3d3d3d;
+  font-size: 16px;
+}
+
 /* Section 7 */
 #sec-4{
     background-color: #3F6682;
