@@ -212,6 +212,12 @@ footer{
 .main-img{
   padding: 0 0 20px 0;
 }
+#paypal{
+  width: 2%;
+}
+#paypal-form{
+  padding: 14px 15px 0 0;
+}
 #main-sec{
   padding: 60px 0 0 0px;
   width: 100%;
