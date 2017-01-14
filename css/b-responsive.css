@@ -1041,3 +1041,26 @@
     width: 100px;
   }
 }
+
+.sponsor {
+   margin-bottom: 30px;
+   height: 15vw;
+}
+
+.sponsor .thumbnail {
+  height: 100%;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+}
+
+.sponsor .thumbnail .img-responsive {
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 8px;
+}
