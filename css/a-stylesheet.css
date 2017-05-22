@@ -212,6 +212,20 @@ footer{
 .main-img{
   padding: 0 0 20px 0;
 }
+.btn-donate {
+  background-color: transparent;
+  border-color: #4BADA2;
+  border-width: 2px;
+  text-decoration: none;
+  color: #4BADA2 !important;
+  font-size: 14px;
+  padding-top: 2vh !important;
+  font-weight: 800;
+}
+.btn-donate:hover {
+  background-color: #4BADA2 !important;
+  color: white !important; 
+}
 #paypal{
   width: 2%;
 }
