@@ -64,6 +64,34 @@ footer{
 .navbar-right{
   padding-right: 40px;
 }
+
+#callout {
+  background-color: #F15C46;
+  color: white;
+  border-color: white;
+  width: 100%;
+  padding-top: 2vh;
+  padding-bottom: 1.5vh;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  margin-top: 85px;
+  margin-bottom: -130px;
+}
+
+#callout a{
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  margin-left: 2vh;
+}
+
+#callout a:hover {
+  color: #ED5C62;
+  background-color: white;
+  border-color: white;
+}
+
 .sec-title{
   color: white;
   font-size: 40px;
@@ -219,7 +247,9 @@ footer{
   text-decoration: none;
   color: #4BADA2 !important;
   font-size: 14px;
-  padding-top: 2vh !important;
+  padding-top: 1vh !important;
+  padding-bottom: 1vh !important;
+  margin-top: 1vh !important;
   font-weight: 800;
 }
 .btn-donate:hover {
