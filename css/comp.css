@@ -37,6 +37,17 @@ body {
   text-align: center;
 }
 
+#prizes {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#prize2 {
+  max-width: 100%;
+  max-height: 20vh;
+  color: white;
+}
+
 #schedule {
   background-color: white;
   color: #044059;
