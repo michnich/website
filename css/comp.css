@@ -54,8 +54,22 @@ body {
 }
 
 #scheduleImg {
-  min-height: 100%;
+  background-image: url("../img/comp/hero.jpg");
+  background-position: right bottom;
+  background-size: cover;
 }
+
+#download {
+  background-color: #ED5B60;
+  color: white;
+  border-radius: 0;
+  border-color: #ED5B60;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
 
 #rules {
   background-color: #ED5B60;
