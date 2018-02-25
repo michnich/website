@@ -25,6 +25,8 @@ body {
   background-color: #044059;
   color: white;
   text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 #broughtBy img, #broughtBy p {
@@ -35,6 +37,8 @@ body {
   background-color: #2A85BC;
   color: white;
   text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 #prizes {
