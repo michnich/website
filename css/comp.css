@@ -77,12 +77,33 @@ body {
 #schedule {
   background-color: white;
   color: #044059;
+  font-weight: 600;
+  font-size: .875em;
+}
+
+h1 {
+  font-size: 3.2em;
+}
+
+#dates {
+  font-size: 1.3em;
+}
+
+#dates .row, #dates .col{
+  padding: 0;
+  margin-top: -1vh;
 }
 
 #scheduleImg {
   background-image: url("../img/comp/hero.jpg");
   background-position: right bottom;
   background-size: cover;
+}
+
+#downloadLink {
+  color: #ED5B60;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .brandButton {
@@ -100,6 +121,14 @@ body {
 #rules {
   background-color: #ED5B60;
   color: white;
+  font-size: 1em;
+  font-weight: 600;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+#register {
+  padding-left: 4em;
 }
 
 #compFooter {
@@ -108,8 +137,9 @@ body {
   text-align: center;
   padding-bottom: 1vh;
   padding-top: 2vh;
+  font-size: 1.5em;
 }
 
-#compFooter p {
-  font-size: 2em;
+#compFooter input{
+  font-size: large;
 }
