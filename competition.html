@@ -11,7 +11,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <!--sidebar nav-->
+    <link rel="stylesheet" href="./css/puredrawer.scss">
     <!--custom-->
     <link rel="stylesheet" href="./css/comp.css" type="text/css">
     <!--fonts-->
@@ -19,165 +20,165 @@
   </head>
 
   <body>
-      <!--header/nav-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Overview <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Schedule</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Rules</a>
-            </li>
-          </ul>
+      <!--hamburger nav-->
+      <div class="pure-container" data-effect="pure-effect-slide">
+        <input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left">
+        <label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
+            <span class="pure-toggle-icon"></span>
+        </label>
+
+        <div class="pure-drawer" data-position="left">
+            Put your off canvas content here
+        </div>
+        <div class="pure-pusher-container">
+            <div class="pure-pusher">
+            <!--SITE CONTENT-->
+              <!--HEADER SECTION-->
+              <div class="container-fluid">
+                <h1>Ctrl+Shift</h1>
+              </div>
+              <div class="noSpace container-fluid">
+                <!--jumbo image-->
+                <div class="row container-fluid noSpace">
+                  <img src="./img/comp/main_image.jpg" class="img-fluid">
+                </div>
+
+                <!--brought by-->
+                <div class="container-fluid noSpace" id="broughtBy">
+                  <p>brought to you by:</p>
+                  <img src="./img/logo-v5.png">
+                </div>
+
+                <!--code compete section-->
+                <div class="container-fluid noSpace" id="code">
+                  <h1 class="bold">code, compete & conquer!</h1>
+                  <p>On June 23rd, the top 10 teams will present their projects
+                    to a team of live judges, and cash prizes will be awarded to the best projects.</p>
+
+                  <div class="container" id="prizes">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <img src="./img/comp/prize_icon_2.svg" id="prize2" class="image-fluid mx-auto d-block">
+                      </div>
+                      <div class="col-md-10" style="padding-top: 2vh;">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <h3 class="text-md-left">1st Place: $1,000</h3>
+                          </div>
+                          <div class="col-md-4">
+                            <h3 class="text-md-left">2nd Place: $750</h3>
+                          </div>
+                          <div class="col-md-4">
+                            <h3 class="text-md-left">3rd Place: $500</h3>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <h3 class="text-md-left">Two Honorable Mention Awards: $250</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--schedule-->
+                <div class="row container-fluid noSpace" id="schedule">
+                  <div class="col-md-4" id="scheduleImg">
+                    <!--<img src="./img/comp/hero.jpg" class="img-fluid" id="scheduleImg">-->
+                  </div>
+                  <div class="col-md-8" style="padding-left: 3em; padding-top: 5vh; padding-bottom: 5vh;">
+                    <h1 class="bold"><span class="blue">CONTEST</span> <br> <span class="red">SCHEDULE</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent elit ante, venenatis id convallis
+                       non, porta a enim. Aliquam tincidunt sit amet felis quis imperdiet. Sed nec nisl semper, volutpat
+                       quam vel, pretium tellus. Nam vitae aliquam lectus, sit amet molestie ligula.
+                       Integer turpis nisl, imperdiet id fermentum sed, gravida a eros. </p>
+                    <!--dates-->
+                    <div class="container" id="dates">
+                      <div class="row justify-content-start">
+                        <div class="col-md-5">
+                          <h4>March 1, 2018</h4>
+                        </div>
+                        <div class="col-sm-auto">
+                          <h4 class="text-md-left">Online Application Opens</h4>
+                        </div>
+                      </div>
+                      <div class="row justify-content-start">
+                        <div class="col-md-5">
+                          <h4>April 1, 2018</h4>
+                        </div>
+                        <div class="col-sm-auto">
+                          <h4 class="text-md-left">Online Application Closes at 5pm EST</h4>
+                        </div>
+                      </div>
+                      <div class="row justify-content-start">
+                        <div class="col-md-5">
+                          <h4>April 20, 2018</h4>
+                        </div>
+                        <div class="col-sm-auto">
+                          <h4 class="text-md-left">Meetup 1: Refining Your Project/Idea</h4>
+                        </div>
+                      </div>
+                      <div class="row justify-content-start">
+                        <div class="col-md-5">
+                          <h4>May 18, 2018</h4>
+                        </div>
+                        <div class="col-sm-auto">
+                          <h4 class="text-md-left">Meetup 2:Preparing for Submission</h4>
+                        </div>
+                      </div>
+                      <div class="row justify-content-start">
+                        <div class="col-md-5">
+                          <h4>June 1, 2018</h4>
+                        </div>
+                        <div class="col-sm-auto">
+                          <h4 class="text-md-left">Online Submission Due (Virtual Round)</h4>
+                        </div>
+                      </div>
+                      <div class="row justify-content-start">
+                        <div class="col-md-5">
+                          <h4>June 8, 2018</h4>
+                        </div>
+                        <div class="col-sm-auto">
+                          <h4 class="text-md-left">Teams Selected for Live Competition</h4>
+                        </div>
+                      </div>
+                      <div class="row justify-content-start">
+                        <div class="col-md-5">
+                          <h4>June 23, 2018</h4>
+                        </div>
+                        <div class="col-sm-auto">
+                          <h4 class="text-md-left">Live Competition</h4>
+                        </div>
+                      </div>
+                    </div><!--end date container-->
+                    <!--button container-->
+                    <div class="row" style="padding-top: 5vh;">
+                      <div class="col-md-5">
+                        <button type="button" class="btn btn-primary btn-lg btn-block" id="download">Download Schedule</button>
+                      </div>
+                    </div>
+                  </div> <!--end schedule text container-->
+                </div>
+
+
+                <!--rules-->
+                <div class="row container-fluid noSpace" id="rules">
+                  <h1 class="bold">CONTEST RULES</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum odio eu feugiat pretium nibh. Ultrices dui sapien eget mi proin sed libero enim. Id velit ut tortor pretium viverra suspendisse potenti nullam. Proin nibh nisl condimentum id venenatis a condimentum vitae sapien. Volutpat blandit aliquam etiam erat velit scelerisque in. Quam viverra orci sagittis eu. Et sollicitudin ac orci phasellus egestas tellus. Pellentesque elit eget gravida cum sociis natoque penatibus. Odio aenean sed adipiscing diam donec. Quam viverra orci sagittis eu volutpat odio. Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Augue lacus viverra vitae congue eu consequat ac felis donec. Diam donec adipiscing tristique risus. Erat velit scelerisque in dictum non consectetur a erat nam. Semper eget duis at tellus. At elementum eu facilisis sed odio morbi quis. Tristique risus nec feugiat in. Ac placerat vestibulum lectus mauris ultrices eros in cursus. Nulla pellentesque dignissim enim sit amet.</p>
+                </div>
+
+                <!--footer-->
+                <div class="row container-fluid noSpace" id="compFooter">
+                  <div class="form-group">
+                    <label for="formGroupExampleInput">Example label</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                  </div>
+                </div>
+              </div><!--site content-->
+            </div>
+          </div>
+          <label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
       </div>
-      </nav>
-
-
-      <div class="noSpace container-fluid">
-        <!--jumbo image-->
-        <div class="row container-fluid noSpace">
-          <img src="./img/comp/main_image.jpg" class="img-fluid">
-        </div>
-
-        <!--brought by-->
-        <div class="container-fluid noSpace" id="broughtBy">
-          <p>brought to you by:</p>
-          <img src="./img/logo-v5.png">
-        </div>
-
-        <!--code compete section-->
-        <div class="container-fluid noSpace" id="code">
-          <h1 class="bold">code, compete & conquer!</h1>
-          <p>On June 23rd, the top 10 teams will present their projects
-            to a team of live judges, and cash prizes will be awarded to the best projects.</p>
-
-          <div class="container" id="prizes">
-            <div class="row">
-              <div class="col-md-2">
-                <img src="./img/comp/prize_icon_2.svg" id="prize2" class="image-fluid mx-auto d-block">
-              </div>
-              <div class="col-md-10" style="padding-top: 2vh;">
-                <div class="row">
-                  <div class="col-md-4">
-                    <h3 class="text-md-left">1st Place: $1,000</h3>
-                  </div>
-                  <div class="col-md-4">
-                    <h3 class="text-md-left">2nd Place: $750</h3>
-                  </div>
-                  <div class="col-md-4">
-                    <h3 class="text-md-left">3rd Place: $500</h3>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <h3 class="text-md-left">Two Honorable Mention Awards: $250</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--schedule-->
-        <div class="row container-fluid noSpace" id="schedule">
-          <div class="col-md-4" id="scheduleImg">
-            <!--<img src="./img/comp/hero.jpg" class="img-fluid" id="scheduleImg">-->
-          </div>
-          <div class="col-md-8" style="padding-left: 3em; padding-top: 5vh; padding-bottom: 5vh;">
-            <h1 class="bold"><span class="blue">CONTEST</span> <br> <span class="red">SCHEDULE</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent elit ante, venenatis id convallis
-               non, porta a enim. Aliquam tincidunt sit amet felis quis imperdiet. Sed nec nisl semper, volutpat
-               quam vel, pretium tellus. Nam vitae aliquam lectus, sit amet molestie ligula.
-               Integer turpis nisl, imperdiet id fermentum sed, gravida a eros. </p>
-            <!--dates-->
-            <div class="container" id="dates">
-              <div class="row justify-content-start">
-                <div class="col-md-5">
-                  <h4>March 1, 2018</h4>
-                </div>
-                <div class="col-sm-auto">
-                  <h4 class="text-md-left">Online Application Opens</h4>
-                </div>
-              </div>
-              <div class="row justify-content-start">
-                <div class="col-md-5">
-                  <h4>April 1, 2018</h4>
-                </div>
-                <div class="col-sm-auto">
-                  <h4 class="text-md-left">Online Application Closes at 5pm EST</h4>
-                </div>
-              </div>
-              <div class="row justify-content-start">
-                <div class="col-md-5">
-                  <h4>April 20, 2018</h4>
-                </div>
-                <div class="col-sm-auto">
-                  <h4 class="text-md-left">Meetup 1: Refining Your Project/Idea</h4>
-                </div>
-              </div>
-              <div class="row justify-content-start">
-                <div class="col-md-5">
-                  <h4>May 18, 2018</h4>
-                </div>
-                <div class="col-sm-auto">
-                  <h4 class="text-md-left">Meetup 2:Preparing for Submission</h4>
-                </div>
-              </div>
-              <div class="row justify-content-start">
-                <div class="col-md-5">
-                  <h4>June 1, 2018</h4>
-                </div>
-                <div class="col-sm-auto">
-                  <h4 class="text-md-left">Online Submission Due (Virtual Round)</h4>
-                </div>
-              </div>
-              <div class="row justify-content-start">
-                <div class="col-md-5">
-                  <h4>June 8, 2018</h4>
-                </div>
-                <div class="col-sm-auto">
-                  <h4 class="text-md-left">Teams Selected for Live Competition</h4>
-                </div>
-              </div>
-              <div class="row justify-content-start">
-                <div class="col-md-5">
-                  <h4>June 23, 2018</h4>
-                </div>
-                <div class="col-sm-auto">
-                  <h4 class="text-md-left">Live Competition</h4>
-                </div>
-              </div>
-            </div><!--end date container-->
-            <!--button container-->
-            <div class="row" style="padding-top: 5vh;">
-              <div class="col-md-5">
-                <button type="button" class="btn btn-primary btn-lg btn-block" id="download">Download Schedule</button>
-              </div>
-            </div>
-          </div> <!--end schedule text container-->
-        </div>
-
-
-        <!--rules-->
-        <div class="row container-fluid noSpace" id="rules">
-          <h1 class="bold">CONTEST RULES</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum odio eu feugiat pretium nibh. Ultrices dui sapien eget mi proin sed libero enim. Id velit ut tortor pretium viverra suspendisse potenti nullam. Proin nibh nisl condimentum id venenatis a condimentum vitae sapien. Volutpat blandit aliquam etiam erat velit scelerisque in. Quam viverra orci sagittis eu. Et sollicitudin ac orci phasellus egestas tellus. Pellentesque elit eget gravida cum sociis natoque penatibus. Odio aenean sed adipiscing diam donec. Quam viverra orci sagittis eu volutpat odio. Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Augue lacus viverra vitae congue eu consequat ac felis donec. Diam donec adipiscing tristique risus. Erat velit scelerisque in dictum non consectetur a erat nam. Semper eget duis at tellus. At elementum eu facilisis sed odio morbi quis. Tristique risus nec feugiat in. Ac placerat vestibulum lectus mauris ultrices eros in cursus. Nulla pellentesque dignissim enim sit amet.</p>
-        </div>
-
-        <!--footer-->
-        <div class="row container-fluid noSpace" id="compFooter">
-          <div class="form-group">
-            <label for="formGroupExampleInput">Example label</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-          </div>
-        </div>
   </body>
-
 </html>
