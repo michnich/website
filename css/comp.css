@@ -21,6 +21,11 @@ body {
 .bold {
   font-weight: 700;
 }
+
+#header{
+  text-align: center; 
+}
+
 #broughtBy {
   background-color: #044059;
   color: white;
@@ -63,7 +68,7 @@ body {
   background-size: cover;
 }
 
-#download {
+.brandButton {
   background-color: #ED5B60;
   color: white;
   border-radius: 0;
