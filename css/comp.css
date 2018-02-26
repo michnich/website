@@ -23,7 +23,7 @@ body {
 }
 
 #header{
-  text-align: center; 
+  text-align: center;
 }
 
 #broughtBy {
@@ -87,4 +87,12 @@ body {
 
 #compFooter {
   background-color: #044059;
+  color: white;
+  text-align: center;
+  padding-bottom: 1vh;
+  padding-top: 2vh;
+}
+
+#compFooter p {
+  font-size: 2em;
 }
