@@ -117,6 +117,11 @@ h1 {
   padding-left: 1em;
 }
 
+.brandButton:hover {
+  background-color: #2A85BC;
+  border-color: #2A85BC;
+}
+
 
 #rules {
   background-color: #ED5B60;
@@ -129,6 +134,7 @@ h1 {
 
 #register {
   padding-left: 4em;
+  padding-bottom: 5vh;
 }
 
 #compFooter {
@@ -142,4 +148,11 @@ h1 {
 
 #compFooter input{
   font-size: large;
+}
+
+#fsForm2970113 .form-control {
+  background-color: #F0F0F0;
+  border-radius: 0;
+  color: #242423;
+
 }
