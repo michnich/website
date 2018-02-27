@@ -197,7 +197,8 @@
                     <h1 class="bold"><span class="blue">REGISTER FOR</span> <br> <span class="red">CTRL+SHIFT</span></h1>
                   </div>
                   <div class="col-md-8 no-gutter">
-                    <form method="post" novalidate enctype="multipart/form-data" action="https://www.formstack.com/forms/index.php" id="fsForm2970113">
+                    <p><b><span style="color: red">*</span>All fields are required</b></p>
+                    <form class="needs-validation" method="post" enctype="multipart/form-data" action="https://www.formstack.com/forms/index.php" id="fsForm2970113">
                       <input type="hidden" name="form" value="2970113" />
                       <input type="hidden" name="viewkey" value="TzEHX6WlUV" />
                       <input type="hidden" name="hidden_fields" id="hidden_fields2970113" value="" />
@@ -222,7 +223,7 @@
                         <input type="date" class="form-control" id="field61661806" name="field61661806" required>
                       </div>
                       <div class="form-group">
-                        <label for="gender">Your Gender Identity</label>
+                        <label for="gender">Gender</label>
                         <div class="form-check">
                           <input class="form-check-input" type="radio" id="field61197152_1" name="field61197152" value="Male" required>Male
                         </div>
@@ -232,6 +233,11 @@
                         <div class="form-check">
                           <input class="form-check-input" type="radio" id="field61197152_3" name="field61197152" value="Other" required>Prefer to self describe
                         </div>
+                      </div>
+                      <div class="form-group" id="identity">
+                        <label>What's your gender identity? <span class="text-muted">not required</span></label>
+                        <input type="text" id="field61197264" name="field61197264" class="form-control">
+                        <small class="form-text text-muted">If you're comfortable sharing, we'd love to know!</small>
                       </div>
                       <div class="form-group">
                         <label for="dob">Email Address</label>
@@ -257,8 +263,8 @@
                         <input type="email" class="form-control" id="field61197670" name="field61197670" required>
                       </div>
                       <div class="form-group">
-                        <label for="dob">Parent Guardian Phone Number</label>
-                        <input type="tel" class="form-control" id="field61292545" name="field61292545 required">
+                        <label for="dob">Parent/Guardian Phone Number</label>
+                        <input type="tel" class="form-control" id="field61292545" name="field61292545" required>
                       </div>
                       <div class="form-group">
                         <label for="field61199061_1">Are you working in a group?</label>
@@ -269,7 +275,7 @@
                           <input class="form-check-input" type="radio" id="field61199061_2" name="field61199061" value="Yes" required>Yes
                         </div>
                       </div>
-                      <div class="form-group">
+                      <div class="form-group" id="members">
                         <label for="name">First and last names of group members</label>
                         <input type="text" class="form-control" id="field61199105" name="field61199105">
                       </div>
@@ -278,7 +284,8 @@
                         <textarea rows="4" cols="50" class="form-control" id="field61199163" name="field61199163" required>
                        </textarea>
                       </div>
-                      <button class="btn btn-primary brandButton" id="fsSubmitButton2970113" type="submit">Submit</button>
+                      <button class="btn btn-primary brandButton" type="submit" id="fsSubmitButton2970113">Submit</button>
+                      <!--id="fsSubmitButton2970113"-->
                     </form>
                   </div>
                 </div>
@@ -298,5 +305,34 @@
           </div>
           <label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
       </div>
+
+
+      <script>
+      //gender
+        $('input:radio[name="field61197152"]').change(
+          function(){
+            if ($(this).is(':checked') && $(this).val() == 'Other') {
+               $("#identity").show();
+            }
+            else {
+              $("#identity").hide();
+            }
+        });
+
+        //group members
+        //field61199105
+        $('input:radio[name="field61199061"]').change(
+          function(){
+            if ($(this).is(':checked') && $(this).val() == 'Yes') {
+               $("#members").show();
+               $("#field61199105").attr('required', true)
+            }
+            else {
+              $("#members").hide();
+              $("#field61199105").attr('required', false)
+            }
+        });
+
+      </script>
   </body>
 </html>
