@@ -41,6 +41,37 @@ body {
 
 #header{
   text-align: center;
+  padding-bottom: 5vh;
+  height: 50vh;
+  /*background-image: url("../img/comp/ctrl.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  height: 50vh;*/
+}
+
+#headerText {
+  /*position: absolute;*/
+  z-index: 5;
+  /*padding-top: 29vh;*/
+}
+
+#imgContainer {
+  height: inherit;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: url("../img/comp/ctrl.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 80%;
+}
+
+#headerImg {
+  height: 100%;
 }
 
 #broughtBy {
