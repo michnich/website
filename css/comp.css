@@ -78,6 +78,7 @@ body {
   background-color: #044059;
   color: white;
   text-align: center;
+  height: 12vh;
   padding-top: 2vh;
   padding-bottom: 2vh;
 }
@@ -204,12 +205,12 @@ h1 {
 #makedo img {
   display: block;
   margin: 0 auto;
-  max-height: 50vh;
+  max-height: 55vh;
 }
 
 #makedoText {
   text-align: center;
   z-index: 3;
   position: relative;
-  margin-top: -20vh;
+  margin-top: -22vh;
 }
