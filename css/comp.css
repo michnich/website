@@ -195,3 +195,21 @@ h1 {
 #members {
   display: none;
 }
+
+#makedo {
+  position: relative;
+  top: -10vh;
+}
+
+#makedo img {
+  display: block;
+  margin: 0 auto;
+  max-height: 50vh;
+}
+
+#makedoText {
+  text-align: center;
+  z-index: 3;
+  position: relative;
+  margin-top: -20vh;
+}
