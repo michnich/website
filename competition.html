@@ -1,344 +1,332 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Coded by Kids</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!--sidebar nav-->
-    <link rel="stylesheet" href="./css/puredrawer/puredrawer.scss">
+  <title>Coded by Kids</title>
 
-    <!--custom-->
-    <link rel="stylesheet" href="./css/comp.css" type="text/css">
-    <!--fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700,700i" rel="stylesheet">
-  </head>
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!--sidebar nav-->
+  <link rel="stylesheet" href="./css/puredrawer/puredrawer.scss">
 
-  <body>
-      <!--hamburger nav-->
-      <div class="pure-container" data-effect="pure-effect-slide">
-        <input type="checkbox" id="pure-toggle-left" class="pure-toggle" data-toggle="left">
-        <label class="pure-toggle-label" for="pure-toggle-left" data-toggle-label="left">
-            <span class="pure-toggle-icon"></span>
-        </label>
+  <!--custom-->
+  <link rel="stylesheet" href="./css/comp.css" type="text/css">
+  <link rel="stylesheet" href="./css/sidenav.css" type="text/css">
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700,700i" rel="stylesheet">
+</head>
 
-        <div class="pure-drawer" data-position="left">
-            <div class="container" id="navContainer">
-              <a href="#code"><h2>Prizes</h2></a>
-              <a href="#schedule"><h2>Schedule</h2></a>
-              <a href="#rules"><h2>Rules</h2></a>
-              <a href="#register"><h2>Register</h2></a>
-              <a href="#compFooter"><h2>Stay in touch</h2></a>
+<body>
+  <input type="checkbox" id="drawer-toggle" name="drawer-toggle" />
+  <label for="drawer-toggle" id="drawer-toggle-label"></label>
+  <nav id="drawer">
+    <ul>
+      <li><a href="#schedule">SCHEDULE</a></li>
+      <li><a href="#rules">RULES</a></li>
+      <li><a href="#register">REGISTER</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+  <div id="page-content">
+    <!--SITE CONTENT-->
+    <!--HEADER SECTION-->
+    <div class="row align-items-end" id="header">
+      <div class="container" id="imgContainer">
+        <!--<img src="./img/comp/ctrl.png" class="img-fluid" id="headerImg">-->
+      </div>
+      <div class="container-fluid" id="headerText">
+        <h4><b>June 23, 2018 Philadelphia, PA</b></h4>
+        <h5>Compete in Philadelphia's first citywide coding competition for high school students.</h5>
+        <button type="button" class="btn btn-primary brandButton">Register</button>
+      </div>
+
+    </div>
+
+    <div class="noSpace container-fluid">
+      <!--jumbo image-->
+      <div class="row container-fluid noSpace">
+        <img src="./img/comp/main_image.jpg" class="img-fluid">
+      </div>
+
+      <!--brought by-->
+      <div class="container-fluid noSpace" id="broughtBy">
+        <p>brought to you by:</p>
+        <img src="./img/logo-v5.png">
+      </div>
+
+      <!--code compete section-->
+      <div class="container-fluid noSpace" id="code">
+        <h1 class="bold">code, compete & conquer!</h1>
+        <p>On June 23rd, the top 10 teams will present their projects to a team of live judges, and cash prizes will be awarded to the best projects.</p>
+
+        <div class="container" id="prizes">
+          <div class="row">
+            <div class="col-md-2">
+              <img src="./img/comp/prize_icon_2.svg" id="prize2" class="image-fluid mx-auto d-block">
             </div>
-        </div>
-        <div class="pure-pusher-container">
-            <div class="pure-pusher">
-            <!--SITE CONTENT-->
-              <!--HEADER SECTION-->
-              <div class="row align-items-end" id="header">
-                <div class="container" id="imgContainer">
-                  <!--<img src="./img/comp/ctrl.png" class="img-fluid" id="headerImg">-->
+            <div class="col-md-10" style="padding-top: 2vh;">
+              <div class="row">
+                <div class="col-md-4">
+                  <h3 class="text-md-left">1st Place: $1,000</h3>
                 </div>
-                <div class="container-fluid" id="headerText">
-                  <h4><b>June 23, 2018 Philadelphia, PA</b></h4>
-                  <h5>Compete in Philadelphia's first citywide coding competition for high school students.</h5>
-                  <button type="button" class="btn btn-primary brandButton">Register</button>
+                <div class="col-md-4">
+                  <h3 class="text-md-left">2nd Place: $750</h3>
                 </div>
-
+                <div class="col-md-4">
+                  <h3 class="text-md-left">3rd Place: $500</h3>
+                </div>
               </div>
-
-              <div class="noSpace container-fluid">
-                <!--jumbo image-->
-                <div class="row container-fluid noSpace">
-                  <img src="./img/comp/main_image.jpg" class="img-fluid">
+              <div class="row">
+                <div class="col">
+                  <h3 class="text-md-left">Two Honorable Mention Awards: $250</h3>
                 </div>
-
-                <!--brought by-->
-                <div class="container-fluid noSpace" id="broughtBy">
-                  <p>brought to you by:</p>
-                  <img src="./img/logo-v5.png">
-                </div>
-
-                <!--code compete section-->
-                <div class="container-fluid noSpace" id="code">
-                  <h1 class="bold">code, compete & conquer!</h1>
-                  <p>On June 23rd, the top 10 teams will present their projects
-                    to a team of live judges, and cash prizes will be awarded to the best projects.</p>
-
-                  <div class="container" id="prizes">
-                    <div class="row">
-                      <div class="col-md-2">
-                        <img src="./img/comp/prize_icon_2.svg" id="prize2" class="image-fluid mx-auto d-block">
-                      </div>
-                      <div class="col-md-10" style="padding-top: 2vh;">
-                        <div class="row">
-                          <div class="col-md-4">
-                            <h3 class="text-md-left">1st Place: $1,000</h3>
-                          </div>
-                          <div class="col-md-4">
-                            <h3 class="text-md-left">2nd Place: $750</h3>
-                          </div>
-                          <div class="col-md-4">
-                            <h3 class="text-md-left">3rd Place: $500</h3>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col">
-                            <h3 class="text-md-left">Two Honorable Mention Awards: $250</h3>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!--schedule-->
-                <div class="row container-fluid noSpace" id="schedule">
-                  <div class="col-md-4" id="scheduleImg">
-
-                  </div>
-                  <div class="col-md-8" style="padding-left: 3em; padding-top: 5vh; padding-bottom: 7vh;">
-                    <h1 class="bold"><span class="blue">CONTEST</span> <br> <span class="red">SCHEDULE</span></h1>
-                    <p>All major competition milestones and dates are listed below. Please download the full
-                      competition schedule for more details. <br> *Please note that all participants are required
-                       to attend at least one meetup. </p>
-                    <br>
-                    <!--dates-->
-                    <div class="container" id="dates">
-                      <div class="row justify-content-start">
-                        <div class="col-md-5">
-                          <p>March 1, 2018</p>
-                        </div>
-                        <div class="col-sm-auto">
-                          <p class="text-md-left">Online Application Opens</p>
-                        </div>
-                      </div>
-                      <div class="row justify-content-start">
-                        <div class="col-md-5">
-                          <p>April 1, 2018</p>
-                        </div>
-                        <div class="col-sm-auto">
-                          <p class="text-md-left">Online Application Closes at 5pm EST</p>
-                        </div>
-                      </div>
-                      <div class="row justify-content-start">
-                        <div class="col-md-5">
-                          <p>April 20, 2018</p>
-                        </div>
-                        <div class="col-sm-auto">
-                          <p class="text-md-left">Meetup 1: Refining Your Project/Idea</p>
-                        </div>
-                      </div>
-                      <div class="row justify-content-start">
-                        <div class="col-md-5">
-                          <p>May 18, 2018</p>
-                        </div>
-                        <div class="col-sm-auto">
-                          <p class="text-md-left">Meetup 2:Preparing for Submission</p>
-                        </div>
-                      </div>
-                      <div class="row justify-content-start">
-                        <div class="col-md-5">
-                          <p>June 1, 2018</p>
-                        </div>
-                        <div class="col-sm-auto">
-                          <p class="text-md-left">Online Submission Due (Virtual Round)</p>
-                        </div>
-                      </div>
-                      <div class="row justify-content-start">
-                        <div class="col-md-5">
-                          <p>June 8, 2018</p>
-                        </div>
-                        <div class="col-sm-auto">
-                          <p class="text-md-left">Teams Selected for Live Competition</p>
-                        </div>
-                      </div>
-                      <div class="row justify-content-start">
-                        <div class="col-md-5">
-                          <p>June 23, 2018</p>
-                        </div>
-                        <div class="col-sm-auto">
-                          <p class="text-md-left">Live Competition</p>
-                        </div>
-                      </div>
-                    </div><!--end date container-->
-                    <!--button container-->
-                    <div class="row">
-                      <div class="col-sm-12" style="padding-top: 2vh;">
-                        <a href="#" id="downloadLink"><h4>Download Full Schedule<h4></a>
-                      </div>
-                      <div class="col-sm-12" style="padding-top: 2vh;">
-                        <button type="button" class="btn btn-primary btn-lg brandButton">REGISTER</button>
-                      </div>
-                    </div>
-                  </div> <!--end schedule text container-->
-                </div>
-
-
-                <!--rules-->
-                <div class="row container-fluid noSpace" id="rules">
-                  <div class="col-md-4" style="padding-left: 4em;">
-                    <h1 class="bold">CONTEST<br>RULES</h1>
-                  </div>
-                  <div class="col-md-8">
-                    <p>Project must fit into one of the three following categories: a business or nonprofit idea,
-                      research/advocacy, or a community service project.</p>
-                    <p>Submitted project must be at least 4 pages (or 4 sections if using a one page design)</p>
-                    <p>Project must be coded in HTML and CSS. JS/jQuery and other frameworks may be used, but are not required</p>
-                    <p>Extra points will be awarded to responsive sites</p>
-                    <p>Site must be coded “by hand” - no use of templates or online site builders (Wix, Weebly, etc.)</p>
-                    <p>Final project must be hosted on Github</p>
-                  </div>
-                </div>
-
-                <!--register-->
-                <div class="container-fluid noSpace" id="register">
-                  <div class="row-fluid" style="">
-                    <h1 class="bold"><span class="blue">REGISTER FOR</span> <br> <span class="red">CTRL+SHIFT</span></h1>
-                  </div>
-                  <div class="col-md-8 no-gutter">
-                    <p><b><span style="color: red">*</span>All fields are required</b></p>
-                    <form class="needs-validation" method="post" enctype="multipart/form-data" action="https://www.formstack.com/forms/index.php" id="fsForm2970113">
-                      <input type="hidden" name="form" value="2970113" />
-                      <input type="hidden" name="viewkey" value="TzEHX6WlUV" />
-                      <input type="hidden" name="hidden_fields" id="hidden_fields2970113" value="" />
-                      <input type="hidden" name="_submit" value="1" />
-                      <input type="hidden" name="incomplete" id="incomplete2970113" value="" />
-                      <input type="hidden" name="incomplete_password" id="incomplete_password2970113" />
-                      <input type="hidden" name="style_version" value="3" />
-                      <input type="hidden" id="viewparam" name="viewparam" value="729010" />
-                      <div class="form-group">
-                          <label for="name">Applicant Name</label><br>
-                          <div class="row">
-                            <div class="col">
-                              <input type="text" class="form-control" id="field61196941-first" name="field61196941-first" placeholder="First Name" required>
-                            </div>
-                            <div class="col">
-                              <input type="text" class="form-control" id="field61196941-last" name="field61196941-last" placeholder="Last Name" required>
-                            </div>
-                          </div>
-                      </div>
-                      <div class="form-group">
-                        <label for="dob">DOB</label>
-                        <input type="date" class="form-control" id="field61661806" name="field61661806" required>
-                      </div>
-                      <div class="form-group">
-                        <label for="gender">Gender</label>
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" id="field61197152_1" name="field61197152" value="Male" required>Male
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" id="field61197152_2" name="field61197152" value="Female" required>Female
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" id="field61197152_3" name="field61197152" value="Other" required>Prefer to self describe
-                        </div>
-                      </div>
-                      <div class="form-group" id="identity">
-                        <label>What's your gender identity? <span class="text-muted">not required</span></label>
-                        <input type="text" id="field61197264" name="field61197264" class="form-control">
-                        <small class="form-text text-muted">If you're comfortable sharing, we'd love to know!</small>
-                      </div>
-                      <div class="form-group">
-                        <label for="dob">Email Address</label>
-                        <input type="email" class="form-control" id="field61197688" name="field61197688" required>
-                      </div>
-                      <div class="form-group">
-                        <label for="school">What high school did you attend?</label>
-                        <input type="text" class="form-control" id="field61197716" name="field61197716" required>
-                      </div>
-                      <div class="form-group">
-                        <label for="name">Parent/Guardian Name</label>
-                        <div class="row">
-                          <div class="col">
-                            <input type="text" class="form-control" id="field61197660-first" name="field61197660-first" placeholder="First Name" required>
-                          </div>
-                          <div class="col">
-                            <input type="text" class="form-control" id="field61197660-last" name="field61197660-last" placeholder="Last Name" required>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <label for="dob">Parent/Guardian Email Address</label>
-                        <input type="email" class="form-control" id="field61197670" name="field61197670" required>
-                      </div>
-                      <div class="form-group">
-                        <label for="dob">Parent/Guardian Phone Number</label>
-                        <input type="tel" class="form-control" id="field61292545" name="field61292545" required>
-                      </div>
-                      <div class="form-group">
-                        <label for="field61199061_1">Are you working in a group?</label>
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" id="field61199061_1" name="field61199061" value="No" required>No
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="radio" id="field61199061_2" name="field61199061" value="Yes" required>Yes
-                        </div>
-                      </div>
-                      <div class="form-group" id="members">
-                        <label for="name">First and last names of group members</label>
-                        <input type="text" class="form-control" id="field61199105" name="field61199105">
-                      </div>
-                      <div class="form-group">
-                        <label for="name">Site Concept</label>
-                        <textarea rows="4" cols="50" class="form-control" id="field61199163" name="field61199163" required>
-                       </textarea>
-                      </div>
-                      <button class="btn btn-primary brandButton" type="submit" id="fsSubmitButton2970113">Submit</button>
-                      <!--id="fsSubmitButton2970113"-->
-                    </form>
-                  </div>
-                </div>
-                <!--footer-->
-                <div class="container-fluid" id="compFooter">
-                  <p class="text-center">leave us your email for Ctrl+Shift info + updates!</p>
-                  <div class="container">
-                    <input type="text" placeholder="your email address">
-                    <button type="button" class="btn btn-primary brandButton" style="display: inline">GO</button>
-                  </div>
-                  <div class="container-fluid" style="padding-top: 2vh;">
-                    <p class="text-left" style="font-size: small">2018 © Coded by Kids</p>
-                  <div>
-                </div>
-              </div><!--site content-->
+              </div>
             </div>
           </div>
-          <label class="pure-overlay" for="pure-toggle-left" data-overlay="left"></label>
+        </div>
+      </div>
+
+      <!--schedule-->
+      <div class="row container-fluid noSpace" id="schedule">
+        <div class="col-md-4" id="scheduleImg">
+
+        </div>
+        <div class="col-md-8" style="padding-left: 3em; padding-top: 5vh; padding-bottom: 7vh;">
+          <h1 class="bold"><span class="blue">CONTEST</span> <br> <span class="red">SCHEDULE</span></h1>
+          <p>All major competition milestones and dates are listed below. Please download the full competition schedule for more details. <br> *Please note that all participants are required to attend at least one meetup. </p>
+          <br>
+          <!--dates-->
+          <div class="container" id="dates">
+            <div class="row justify-content-start">
+              <div class="col-md-5">
+                <p>March 1, 2018</p>
+              </div>
+              <div class="col-sm-auto">
+                <p class="text-md-left">Online Application Opens</p>
+              </div>
+            </div>
+            <div class="row justify-content-start">
+              <div class="col-md-5">
+                <p>April 1, 2018</p>
+              </div>
+              <div class="col-sm-auto">
+                <p class="text-md-left">Online Application Closes at 5pm EST</p>
+              </div>
+            </div>
+            <div class="row justify-content-start">
+              <div class="col-md-5">
+                <p>April 20, 2018</p>
+              </div>
+              <div class="col-sm-auto">
+                <p class="text-md-left">Meetup 1: Refining Your Project/Idea</p>
+              </div>
+            </div>
+            <div class="row justify-content-start">
+              <div class="col-md-5">
+                <p>May 18, 2018</p>
+              </div>
+              <div class="col-sm-auto">
+                <p class="text-md-left">Meetup 2:Preparing for Submission</p>
+              </div>
+            </div>
+            <div class="row justify-content-start">
+              <div class="col-md-5">
+                <p>June 1, 2018</p>
+              </div>
+              <div class="col-sm-auto">
+                <p class="text-md-left">Online Submission Due (Virtual Round)</p>
+              </div>
+            </div>
+            <div class="row justify-content-start">
+              <div class="col-md-5">
+                <p>June 8, 2018</p>
+              </div>
+              <div class="col-sm-auto">
+                <p class="text-md-left">Teams Selected for Live Competition</p>
+              </div>
+            </div>
+            <div class="row justify-content-start">
+              <div class="col-md-5">
+                <p>June 23, 2018</p>
+              </div>
+              <div class="col-sm-auto">
+                <p class="text-md-left">Live Competition</p>
+              </div>
+            </div>
+          </div>
+          <!--end date container-->
+          <!--button container-->
+          <div class="row">
+            <div class="col-sm-12" style="padding-top: 2vh;">
+              <a href="#" id="downloadLink"><h4>Download Full Schedule<h4></a>
+            </div>
+            <div class="col-sm-12" style="padding-top: 2vh;">
+              <button type="button" class="btn btn-primary btn-lg brandButton">REGISTER</button>
+            </div>
+          </div>
+        </div>
+        <!--end schedule text container-->
       </div>
 
 
-      <script>
+      <!--rules-->
+      <div class="row container-fluid noSpace" id="rules">
+        <div class="col-md-4" style="padding-left: 4em;">
+          <h1 class="bold">CONTEST<br>RULES</h1>
+        </div>
+        <div class="col-md-8">
+          <p>Project must fit into one of the three following categories: a business or nonprofit idea, research/advocacy, or a community service project.</p>
+          <p>Submitted project must be at least 4 pages (or 4 sections if using a one page design)</p>
+          <p>Project must be coded in HTML and CSS. JS/jQuery and other frameworks may be used, but are not required</p>
+          <p>Extra points will be awarded to responsive sites</p>
+          <p>Site must be coded “by hand” - no use of templates or online site builders (Wix, Weebly, etc.)</p>
+          <p>Final project must be hosted on Github</p>
+        </div>
+      </div>
+
+      <!--register-->
+      <div class="container-fluid noSpace" id="register">
+        <div class="row-fluid" style="">
+          <h1 class="bold"><span class="blue">REGISTER FOR</span> <br> <span class="red">CTRL+SHIFT</span></h1>
+        </div>
+        <div class="col-md-8 no-gutter">
+          <p><b><span style="color: red">*</span>All fields are required</b></p>
+          <form class="needs-validation" method="post" enctype="multipart/form-data" action="https://www.formstack.com/forms/index.php" id="fsForm2970113">
+            <input type="hidden" name="form" value="2970113" />
+            <input type="hidden" name="viewkey" value="TzEHX6WlUV" />
+            <input type="hidden" name="hidden_fields" id="hidden_fields2970113" value="" />
+            <input type="hidden" name="_submit" value="1" />
+            <input type="hidden" name="incomplete" id="incomplete2970113" value="" />
+            <input type="hidden" name="incomplete_password" id="incomplete_password2970113" />
+            <input type="hidden" name="style_version" value="3" />
+            <input type="hidden" id="viewparam" name="viewparam" value="729010" />
+            <div class="form-group">
+              <label for="name">Applicant Name</label><br>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" id="field61196941-first" name="field61196941-first" placeholder="First Name" required>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" id="field61196941-last" name="field61196941-last" placeholder="Last Name" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="dob">DOB</label>
+              <input type="date" class="form-control" id="field61661806" name="field61661806" required>
+            </div>
+            <div class="form-group">
+              <label for="gender">Gender</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="field61197152_1" name="field61197152" value="Male" required>Male
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="field61197152_2" name="field61197152" value="Female" required>Female
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="field61197152_3" name="field61197152" value="Other" required>Prefer to self describe
+              </div>
+            </div>
+            <div class="form-group" id="identity">
+              <label>What's your gender identity? <span class="text-muted">not required</span></label>
+              <input type="text" id="field61197264" name="field61197264" class="form-control">
+              <small class="form-text text-muted">If you're comfortable sharing, we'd love to know!</small>
+            </div>
+            <div class="form-group">
+              <label for="dob">Email Address</label>
+              <input type="email" class="form-control" id="field61197688" name="field61197688" required>
+            </div>
+            <div class="form-group">
+              <label for="school">What high school did you attend?</label>
+              <input type="text" class="form-control" id="field61197716" name="field61197716" required>
+            </div>
+            <div class="form-group">
+              <label for="name">Parent/Guardian Name</label>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" id="field61197660-first" name="field61197660-first" placeholder="First Name" required>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" id="field61197660-last" name="field61197660-last" placeholder="Last Name" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="dob">Parent/Guardian Email Address</label>
+              <input type="email" class="form-control" id="field61197670" name="field61197670" required>
+            </div>
+            <div class="form-group">
+              <label for="dob">Parent/Guardian Phone Number</label>
+              <input type="tel" class="form-control" id="field61292545" name="field61292545" required>
+            </div>
+            <div class="form-group">
+              <label for="field61199061_1">Are you working in a group?</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="field61199061_1" name="field61199061" value="No" required>No
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" id="field61199061_2" name="field61199061" value="Yes" required>Yes
+              </div>
+            </div>
+            <div class="form-group" id="members">
+              <label for="name">First and last names of group members</label>
+              <input type="text" class="form-control" id="field61199105" name="field61199105">
+            </div>
+            <div class="form-group">
+              <label for="name">Site Concept</label>
+              <textarea rows="4" cols="50" class="form-control" id="field61199163" name="field61199163" required>
+                       </textarea>
+            </div>
+            <button class="btn btn-primary brandButton" type="submit" id="fsSubmitButton2970113">Submit</button>
+            <!--id="fsSubmitButton2970113"-->
+          </form>
+        </div>
+      </div>
+      <!--footer-->
+      <div class="container-fluid" id="compFooter">
+        <p class="text-center">leave us your email for Ctrl+Shift info + updates!</p>
+        <div class="container">
+          <input type="text" placeholder="your email address">
+          <button type="button" class="btn btn-primary brandButton" style="display: inline">GO</button>
+        </div>
+        <div class="container-fluid" style="padding-top: 2vh;">
+          <p class="text-left" style="font-size: small">2018 © Coded by Kids</p>
+          <div>
+          </div>
+        </div>
+        <!--site content-->
+      </div>
+    </div>
+    <script>
       //gender
-        $('input:radio[name="field61197152"]').change(
-          function(){
-            if ($(this).is(':checked') && $(this).val() == 'Other') {
-               $("#identity").show();
-            }
-            else {
-              $("#identity").hide();
-            }
+      $('input:radio[name="field61197152"]').change(
+        function() {
+          if ($(this).is(':checked') && $(this).val() == 'Other') {
+            $("#identity").show();
+          } else {
+            $("#identity").hide();
+          }
         });
 
-        //group members
-        //field61199105
-        $('input:radio[name="field61199061"]').change(
-          function(){
-            if ($(this).is(':checked') && $(this).val() == 'Yes') {
-               $("#members").show();
-               $("#field61199105").attr('required', true)
-            }
-            else {
-              $("#members").hide();
-              $("#field61199105").attr('required', false)
-            }
+      //group members
+      //field61199105
+      $('input:radio[name="field61199061"]').change(
+        function() {
+          if ($(this).is(':checked') && $(this).val() == 'Yes') {
+            $("#members").show();
+            $("#field61199105").attr('required', true)
+          } else {
+            $("#members").hide();
+            $("#field61199105").attr('required', false)
+          }
         });
+    </script>
+</body>
 
-      </script>
-  </body>
 </html>
