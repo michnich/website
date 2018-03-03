@@ -188,6 +188,12 @@ h1 {
 #register {
   padding-left: 4em;
   padding-bottom: 5vh;
+  margin-top: 10vh;
+}
+
+#register h1{
+  font-size: 4.5em;
+  line-height: .9;
 }
 
 #compFooter {
