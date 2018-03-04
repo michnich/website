@@ -5,6 +5,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+  font-size: 3.2em;
+}
+
 .noSpace {
   margin: 0;
   padding: 0;
@@ -93,6 +97,16 @@ body {
   text-align: center;
   padding-top: 5vh;
   padding-bottom: 5vh;
+  font-size: 1.25em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#code h1 {
+  font-size: 2.5em;
+}
+#code h3 {
+  font-size: 1.25em;
 }
 
 #prizes {
@@ -111,10 +125,6 @@ body {
   color: #044059;
   font-weight: 600;
   font-size: .875em;
-}
-
-h1 {
-  font-size: 3.2em;
 }
 
 #dates {
@@ -159,14 +169,31 @@ h1 {
   background-color: #ED5B60;
   color: white;
   font-size: 1em;
-  font-weight: 600;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  font-weight: normal;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+
+#rules h1 {
+  font-size: 4.5em;
+  line-height: .9;
+}
+
+#rules a {
+  text-decoration: underline;
+  color: white;
+
 }
 
 #register {
   padding-left: 4em;
   padding-bottom: 5vh;
+  margin-top: 10vh;
+}
+
+#register h1{
+  font-size: 4.5em;
+  line-height: .9;
 }
 
 #compFooter {
@@ -174,8 +201,8 @@ h1 {
   color: white;
   text-align: center;
   padding-bottom: 1vh;
-  padding-top: 2vh;
-  font-size: 1.5em;
+  padding-top: 5vh;
+  font-size: 1em;
 }
 
 #compFooter input{
@@ -213,4 +240,5 @@ h1 {
   z-index: 3;
   position: relative;
   margin-top: -22vh;
+  color: #044059;
 }
