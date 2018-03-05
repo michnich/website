@@ -242,3 +242,9 @@ h1 {
   margin-top: -22vh;
   color: #044059;
 }
+
+@media (max-width: 767.98px) {
+  #makedoText {
+    margin-top: -18vh;
+  }
+}
