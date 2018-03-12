@@ -254,7 +254,7 @@ footer{
 }
 .btn-donate:hover {
   background-color: #4BADA2 !important;
-  color: white !important; 
+  color: white !important;
 }
 #paypal{
   width: 2%;
@@ -325,7 +325,8 @@ footer{
 /* Section 4 */
 #sec-7{
     background-color: #3F6682;
-    height: 1180px;
+    /*height: 1180px; sylvester why*/
+    padding-bottom: 15vh;
 }
 #programs{
   background-image: url(../img/top-image-3.png);
