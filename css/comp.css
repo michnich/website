@@ -26,6 +26,10 @@ h1 {
   font-weight: 700;
 }
 
+.light {
+  font-weight: 400;
+}
+
 #navContainer {
   color: white;
   text-transform: uppercase;
@@ -170,6 +174,7 @@ h1 {
   color: white;
   font-size: 1em;
   font-weight: normal;
+  padding-left: 4em;
   padding-top: 8vh;
   padding-bottom: 8vh;
 }
@@ -246,5 +251,18 @@ h1 {
 @media (max-width: 767.98px) {
   #makedoText {
     margin-top: -18vh;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #rules {
+    padding-left: 0;
+  }
+  #register {
+    padding-left: 1em;
+  }
+  #ruleList {
+    padding-left: 1em;
   }
 }
