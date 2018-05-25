@@ -37,14 +37,6 @@
     <!--SITE CONTENT-->
     <!--HEADER SECTION-->
     <div class="container-fluid" style="padding-bottom: 5vh">
-      <!--<div class="container" id="imgContainer">-->
-        <!--<img src="./img/comp/ctrl.png" class="img-fluid" id="headerImg">-->
-      <!--</div>
-      <div class="container-fluid" id="headerText">
-        <h4><b>June 23, 2018 Philadelphia, PA</b></h4>
-        <h5>Compete in Philadelphia's first citywide coding competition for high school students.</h5>
-        <button type="button" class="btn btn-primary brandButton">Register</button>
-      </div>-->
       <div class="row-fluid" id="makedo">
           <img src="./img/comp/ctrl.png" class="img-fluid">
       </div>
@@ -52,7 +44,7 @@
         <h4><b>June 23, 2018</b></h4>
         <h4><b>Philadelphia, PA</b></h4>
         <h5>Compete in Philadelphia's first citywide coding competition for high school students.</h5>
-        <a href="#register" class="btn btn-primary brandButton" style="margin-top: 2vh;">Register</a>
+        <a href="#register" class="btn btn-primary brandButton" style="margin-top: 2vh;">Submit</a>
       </div>
 
     </div>
@@ -161,7 +153,7 @@
               <a href="./img/comp/CtrlShift_Schedule_FINAL.pdf" id="downloadLink" download><h4>Download Full Schedule<h4></a>
             </div>
             <div class="col-sm-12" style="padding-top: 2vh;">
-              <button type="button" class="btn btn-primary btn-lg brandButton">REGISTER</button>
+              <button type="button" class="btn btn-primary btn-lg brandButton">SUBMIT</button>
             </div>
           </div>
         </div>
@@ -192,12 +184,86 @@
       <!--register-->
       <div class="container-fluid noSpace" id="register">
         <div class="row-fluid" style="">
-          <h1 class="bold"><span class="blue">REGISTER FOR</span> <br> <span class="red">CTRL + SHIFT</span></h1>
+          <h1 class="bold"><span class="red">CTRL + SHIFT</span><br><span class="blue">SUBMISSION</span></h1>
         </div>
         <div class="col-md-8 no-gutter">
-          <p>The application is now closed</p>
+          <!--FORM START-->
+          <form  class="needs-validation" method="post" enctype="multipart/form-data" action="https://www.formstack.com/forms/index.php" id="fsForm3077722">
+            <input type="hidden" name="form" value="3077722" />
+            <input type="hidden" name="viewkey" value="nZtPCIXXo6" />
+            <input type="hidden" name="hidden_fields" id="hidden_fields3077722" value="" />
+            <input type="hidden" name="_submit" value="1" />
+            <input type="hidden" name="incomplete" id="incomplete3077722" value="" />
+            <input type="hidden" name="incomplete_password" id="incomplete_password3077722" />
+            <input type="hidden" name="style_version" value="3" />
+            <input type="hidden" id="viewparam" name="viewparam" value="729010" />
+          </form>
+          <!--name-->
+          <div class="form-group">
+              <label for="name">Applicant Name</label><br>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" id="field64852114-first" name="field64852114-first" placeholder="First Name" required>
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" id="field64852114-last" name="field64852114-last" placeholder="Last Name" required>
+                </div>
+              </div>
+          </div>
+
+          <!--group-->
+          <div class="form-group">
+            <label for="field61199061_1">Did you work in a group?</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="field64852119_2" name="field64852119" value="No" required>No
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" id="field64852119_1" name="field64852119" value="Yes" required>Yes
+            </div>
+          </div>
+
+          <!--group names-->
+          <div class="form-group" id="members">
+            <label for="name">First and last names of group members</label>
+            <input type="text" class="form-control" id="field64852364" name="field64852364">
+          </div>
+
+          <!--project category-->
+          <div class="form-group">
+              <label for="Category">Project Category</label>
+              <select class="form-control" id="field64891673" name="field64891673" required>
+                <option value="Business or Nonprofit Idea">Business or Nonprofit Idea</option>
+                <option value="Research/advocacy">Research/advocacy</option>
+                <option value="Community Service">Community Service</option>
+              </select>
+          </div>
+
+          <!--link to repo-->
+          <div class="form-group">
+            <label for="Category">Link to your Github repo</label>
+            <input type="text" class="form-control" id="field64852408" name="field64852408">
+          </div>
+
+          <!--link to pages-->
+          <div class="form-group">
+            <label for="Category">Link to your Github Pages</label>
+            <input type="text" class="form-control" id="field64852418" name="field64852418">
+          </div>
+
+          <div class="form-group">
+            <label for="Category">Video/Essay Upload</label>
+            <input type="file" id="field64852429" name="field64852429" size="30" required class="form-control" aria-required="true"
+            />
+            <div class="showMobile">File uploads may not work on some mobile devices.</div>
+          </div>
+
+          <button class="btn btn-primary brandButton" type="submit" id="fsSubmitButton3077722">Submit</button>
         </div>
       </div>
+
+
+
+
       <!--footer-->
       <div class="container-fluid" id="compFooter">
         <p class="text-center">leave us your email for Ctrl+Shift info + updates!</p>
@@ -224,26 +290,15 @@
       </div>
     </div>
     <script>
-      //gender
-      $('input:radio[name="field61197152"]').change(
-        function() {
-          if ($(this).is(':checked') && $(this).val() == 'Other') {
-            $("#identity").show();
-          } else {
-            $("#identity").hide();
-          }
-        });
-
       //group members
-      //field61199105
-      $('input:radio[name="field61199061"]').change(
+      $('input:radio[name="field64852119"]').change(
         function() {
           if ($(this).is(':checked') && $(this).val() == 'Yes') {
             $("#members").show();
-            $("#field61199105").attr('required', true)
+            $("#field64852364").attr('required', true)
           } else {
             $("#members").hide();
-            $("#field61199105").attr('required', false)
+            $("#field64852364").attr('required', false)
           }
         });
     </script>
